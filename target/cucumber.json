@@ -1,0 +1,637 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Login under different credentials as user001",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"user001\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user001\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.111Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login under different credentials as user002",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"user002\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user002\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.116Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login under different credentials as user003",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"user003\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user003\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.122Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login under different credentials as user004",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"user004\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user004\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.128Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login under different credentials as storemanager85",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"storemanager85\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager85\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.133Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Login under different credentials as storemanager999",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"storemanager999\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager999\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-04T15:32:06.138Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Login under different credentials as storemanager205",
+        "description": "",
+        "id": "login;login-under-different-credentials-as-\u003cusername\u003e;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cbt.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"storemanager205\" and \"UserUse123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storemanager205\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUse123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cbt.step_definitions.LoginStepDefinitions.user_should_be_able_to_see_Dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario_outline"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user, I want to be able to login with username and password",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
