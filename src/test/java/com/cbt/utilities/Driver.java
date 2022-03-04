@@ -62,7 +62,7 @@ public class Driver {
 
     }
 
-    public static void closeDriver() {
+    public static void closeDriver() { //Never use
         if(driver!=null){
 
         }
